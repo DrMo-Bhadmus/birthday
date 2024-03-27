@@ -1,0 +1,54 @@
+/* Reset default margin and padding */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0e6f6; /* Light purple */
+}
+
+header {
+    background-color: #ff69b4; /* Hot pink */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #ff69b4; /* Hot pink */
+    margin-bottom: 10px;
+}
+
+.photo-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.photo-container img {
+    max-width: 45%; /* Adjust the width as needed */
+}
+
+.cake-container {
+    text-align: center;
+}
+
+footer {
+    background-color: #ff69b4; /* Hot pink */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
